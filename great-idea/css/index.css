@@ -111,23 +111,31 @@ h1{
 /*SECTION ONE - FEATURES/ABOUT*/
 
 .one div{
-	display: ;
-	width: 49%;
-	
+	display: flex;
+	width: 30%;
+	border: 1.5px solid red;
+	flex-direction: column;
 }
 .one{
 	border-top: 1px solid black;
-	
+	display:flex;
+	justify-content: space-between;
+	margin: 4% 8%;
 }
-h6{
+.one p{
+	margin-top: 1%;
+}
+h2{
 	font-family: "Bangers";
 	padding: 2% 0;
-	font-size: 20px;
-	
+	margin-top: 1%;
+	font-size: 30px;
+	border: 1.5px solid red;
 }
 p{
 	font-family: "Titillium Web";
-	
+	border: 1.5px solid red;
+	font-size: 20px;
 }
 
 /* IMG STYLING IN MIDDLE
@@ -141,13 +149,14 @@ div .middle-img{
 /*SECTION TWO --3 HEADINGS STYLING*/
 
 .two div{
-	display: 
+	display: flex;
 	width: 33%;
-	
-	
+	flex-direction: column;
 }
 .two{
-	margin: 0 14% 0% 8%;
+	display:flex;
+	margin: 4% 7.25%;
+	justify-content: space-between;
 }
 
 /*CONTACT STYLES*/
