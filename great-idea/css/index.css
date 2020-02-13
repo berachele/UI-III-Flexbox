@@ -75,44 +75,38 @@ h1, h2, h3, h4, h5 {
   HOME PAGE CSS*/
 
 
-/* NAGIVATION STYLES
-nav a{
-	display: ;
-	font-size: 15px;
-	color: lightgray;
-	text-decoration: unset;
-}
-nav{
-	
-	
-}
-.logo{
-	
-} */
 
 /*HEADER STYLING - H1 BUTTON IMG*/
 header{
 	width: 100%;
-	padding: 0 0 7%;	
+	padding: 2% 0%;
+	display: flex;	
+	justify-content: space-evenly;
 }
 .left-side{
-	display: none;
+	display: flex;
 	width: 40%;
-	padding: 0% 0 2%;
+	flex-direction: column;
+	justify-content: center;	
 }
 h1{
 	font-size: 6em;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 2px;	
 }
 .left-side button{
+	border: 1px solid black;
+    width: 27%;
+    height: 10%;
+    padding: 1% 0%;
+	margin: 0 36%;
 	font-size: 20px;
-	padding: 5px 25px;
+	font-family: "Titillium Web";
 }
 .circle{
-	display: none;
-	width: 27%;
-	
+	display: flex;
+	width: 27%;	
+
 }
 /*SECTION ONE - FEATURES/ABOUT*/
 
@@ -202,10 +196,6 @@ nav{
 	display:flex;
 	justify-content: space-evenly;
 }
-.logo{
-	display:flex;
-	align-self: flex-end; 
-}
 
 /*IMG STYLING IN MIDDLE*/
 .middle-img{
@@ -223,7 +213,9 @@ nav{
 /*FOOTER STYLING*/
 footer{
 	text-align: center;
-	margin-bottom: 10%;
+	display: flex;
+	justify-content: center;
+	padding: 6.5%;
 }
 
 
