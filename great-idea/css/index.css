@@ -96,7 +96,7 @@ header{
 	padding: 0 0 7%;	
 }
 .left-side{
-	display: ;
+	display: none;
 	width: 40%;
 	padding: 0% 0 2%;
 }
@@ -110,7 +110,7 @@ h1{
 	padding: 5px 25px;
 }
 .circle{
-	display: ;
+	display: none;
 	width: 27%;
 	
 }
@@ -192,23 +192,33 @@ footer{
 
 /* NAGIVATION STYLES */
 nav a{
-	display: ;
 	font-size: 15px;
 	color: lightgray;
 	text-decoration: unset;
+	display:flex;
+	margin: 2% 0 0;
 }
 nav{	
-	
+	display:flex;
+	justify-content: space-evenly;
 }
 .logo{
-	
+	display:flex;
+	align-self: flex-end; 
 }
 
 /*IMG STYLING IN MIDDLE*/
-div .middle-img{
-	display: ;
-	width: 81em;
-	padding: 3% 0;
+.middle-img{
+	display:flex;
+	width: 84%;
+}
+.image{
+	display:flex;
+	justify-content: center;
+}
+.services-header-img{
+	width: 81.5%;
+	margin:1%;
 }
 /*FOOTER STYLING*/
 footer{
@@ -224,4 +234,3 @@ footer{
   SECTION PAGE CSS
   SECTION PAGE CSS*/
 
-  
