@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5 {
   HOME PAGE CSS*/
 
 
-/*NAGIVATION STYLES*/
+/* NAGIVATION STYLES
 nav a{
 	display: ;
 	font-size: 15px;
@@ -88,7 +88,7 @@ nav{
 }
 .logo{
 	
-}
+} */
 
 /*HEADER STYLING - H1 BUTTON IMG*/
 header{
@@ -136,13 +136,13 @@ p{
 	
 }
 
-/*IMG STYLING IN MIDDLE*/
+/* IMG STYLING IN MIDDLE
 
 div .middle-img{
 	display: ;
 	width: 81em;
 	padding: 3% 0;
-}
+} */
 
 /*SECTION TWO --3 HEADINGS STYLING*/
 
@@ -172,9 +172,56 @@ div .middle-img{
 .four p{
 	line-height: 120%;
 }
+/* FOOTER STYLING
+footer{
+	text-align: center;
+	margin-bottom: 10%;
+} */
 
+
+
+
+/*SIMILAR DESIGN CSS
+  SIMILAR DESIGN CSS
+  SIMILAR DESIGN CSS
+  SIMILAR DESIGN CSS
+  SIMILAR DESIGN CSS
+  SIMILAR DESIGN CSS*/
+
+
+
+/* NAGIVATION STYLES */
+nav a{
+	display: ;
+	font-size: 15px;
+	color: lightgray;
+	text-decoration: unset;
+}
+nav{	
+	
+}
+.logo{
+	
+}
+
+/*IMG STYLING IN MIDDLE*/
+div .middle-img{
+	display: ;
+	width: 81em;
+	padding: 3% 0;
+}
 /*FOOTER STYLING*/
 footer{
 	text-align: center;
 	margin-bottom: 10%;
 }
+
+
+/*SECTION PAGE CSS
+  SECTION PAGE CSS
+  SECTION PAGE CSS
+  SECTION PAGE CSS
+  SECTION PAGE CSS
+  SECTION PAGE CSS*/
+
+  
