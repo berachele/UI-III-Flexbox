@@ -254,9 +254,9 @@ section, h2, p, button{
 .sec2{
 	display: flex;
 	flex-wrap: wrap;
-	align-content: space-around;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	margin: 0 9%;
+	width: 100%
 }
 .sec2 div{
 	width: 50%;
@@ -266,5 +266,14 @@ section, h2, p, button{
 .box{
 	border: 1px solid black;
 	padding: 1%;
-	margin: 1%;
+	margin: 1% 1% 1% 0;
+}
+.box h2{
+	font-size: 20px;
+}
+.box p{
+
+}
+.box button{
+
 }
