@@ -234,9 +234,6 @@ footer{
 
 
   /*SECTION ONE SERVICES STYLE*/
-section, h2, p, button{
-	/* border: 1px solid red; */
-}
 .sec1{
 	display: flex;
 	width: 83%;
@@ -245,35 +242,75 @@ section, h2, p, button{
 .serv1{
 	display: flex;
 	flex-direction: column;
+	border-bottom: 1px solid black;
 }
 .serv1 p{
 	margin-bottom: 2%;
+	
 }
+
 
 /*SECTION TWO 6 DIVS STYLE*/
 .sec2{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	margin: 0 9%;
-	width: 100%
+	max-width: 100%;
+	margin-top: 3%;
 }
 .sec2 div{
 	width: 50%;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
+
 .box{
 	border: 1px solid black;
 	padding: 1%;
 	margin: 1% 1% 1% 0;
+	background-color: rgba(209, 203, 201, .5 );
 }
 .box h2{
 	font-size: 20px;
 }
 .box p{
-
+	margin-right: 1%;
+	font-size: 17px;
 }
 .box button{
+	margin: 3% 81% 0 0;
+	padding: 2%;
+	background-color: none;
+	border-radius: 11%;
+}
 
+/*SOME FACTS SECTIONN STYLING*/
+.serv3{
+	display:flex;
+	max-width: 100%;
+}
+.serv3 div, .serv3 h2, .serv3 li, p{
+	border: 1.5px solid red;
+}
+.left-side-serv{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 48%;
+}
+.right-side-serv{
+	display: flex;
+	width: 49%
+}
+
+/*lefit side*/
+.serv3 h2{
+	font-size: 20px;
+}
+.serv3 p{
+	font-size: 17px;
+}
+li{
+	
 }
