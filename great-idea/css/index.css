@@ -289,19 +289,24 @@ footer{
 .serv3{
 	display:flex;
 	max-width: 100%;
-}
-.serv3 div, .serv3 h2, .serv3 li, p{
-	border: 1.5px solid red;
+	margin-top: 3%;
+	border-top: 2px solid black;
+	justify-content: space-between;
 }
 .left-side-serv{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	width: 48%;
+	margin-left: 9%;
+	margin-top: 3%;
+	margin-right: 5%;
 }
 .right-side-serv{
 	display: flex;
-	width: 49%
+	width: 49%;
+	margin-top: 3%;
+	margin-left:11%;
 }
 
 /*lefit side*/
@@ -310,7 +315,13 @@ footer{
 }
 .serv3 p{
 	font-size: 17px;
+	margin-bottom: 3%;
 }
 li{
-	
+	list-style-type: square;
+	margin-left: 17%;
+	width: 117px;
+}
+p{
+	line-height: 25px;
 }
