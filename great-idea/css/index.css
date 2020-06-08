@@ -64,3 +64,264 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+/*HOME PAGE CSS
+  HOME PAGE CSS
+  HOME PAGE CSS
+  HOME PAGE CSS
+  HOME PAGE CSS
+  HOME PAGE CSS*/
+
+
+
+/*HEADER STYLING - H1 BUTTON IMG*/
+header{
+	width: 100%;
+	padding: 2% 0%;
+	display: flex;	
+	justify-content: space-evenly;
+}
+.left-side{
+	display: flex;
+	width: 40%;
+	flex-direction: column;
+	justify-content: center;	
+}
+h1{
+	font-size: 6em;
+	text-align: center;
+	letter-spacing: 2px;	
+}
+.left-side button{
+	border: 1px solid black;
+    width: 27%;
+    height: 10%;
+    padding: 1% 0%;
+	margin: 0 36%;
+	font-size: 20px;
+	font-family: "Titillium Web";
+}
+.circle{
+	display: flex;
+	width: 27%;	
+
+}
+/*SECTION ONE - FEATURES/ABOUT*/
+
+.one div{
+	display: flex;
+	width: 30%;
+	flex-direction: column;
+}
+.one{
+	border-top: 1px solid black;
+	display:flex;
+	justify-content: space-between;
+	margin: 4% 8%;
+}
+.one p{
+	margin-top: 1%;
+}
+h2{
+	font-family: "Bangers";
+	padding: 2% 0;
+	margin-top: 1%;
+	font-size: 30px;
+}
+p{
+	font-family: "Titillium Web";
+	font-size: 20px;
+}
+
+/* IMG STYLING IN MIDDLE
+
+div .middle-img{
+	display: ;
+	width: 81em;
+	padding: 3% 0;
+} */
+
+/*SECTION TWO --3 HEADINGS STYLING*/
+
+.two div{
+	display: flex;
+	width: 33%;
+	flex-direction: column;
+}
+.two{
+	display:flex;
+	margin: 4% 7.25%;
+	justify-content: space-between;
+}
+
+/*CONTACT STYLES*/
+
+.four{
+	margin: 0 20%;
+	border-top: 1px solid black;
+	margin: 0 14% 0% 8%;
+}
+.contactMe{
+	margin: 0 0 0 0;
+}
+.info{
+	margin: 0 0 0 0:
+}
+.four p{
+	line-height: 120%;
+}
+/* FOOTER STYLING
+footer{
+	text-align: center;
+	margin-bottom: 10%;
+} */
+
+
+
+
+/*SIMILAR DESIGN CSS
+  SIMILAR DESIGN CSS
+  SIMILAR DESIGN CSS
+  SIMILAR DESIGN CSS
+  SIMILAR DESIGN CSS
+  SIMILAR DESIGN CSS*/
+
+
+
+/* NAGIVATION STYLES */
+nav a{
+	font-size: 15px;
+	color: lightgray;
+	text-decoration: unset;
+	display:flex;
+	margin: 2% 0 0;
+}
+nav{	
+	display:flex;
+	justify-content: space-evenly;
+}
+
+/*IMG STYLING IN MIDDLE*/
+.middle-img{
+	display:flex;
+	width: 84%;
+}
+.image{
+	display:flex;
+	justify-content: center;
+}
+.services-header-img{
+	width: 81.5%;
+	margin:1%;
+}
+/*FOOTER STYLING*/
+footer{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 6.5%;
+}
+
+
+/*SECTION PAGE CSS
+  SECTION PAGE CSS
+  SECTION PAGE CSS
+  SECTION PAGE CSS
+  SECTION PAGE CSS
+  SECTION PAGE CSS*/
+
+
+  /*SECTION ONE SERVICES STYLE*/
+.sec1{
+	display: flex;
+	width: 83%;
+	margin-left: 9%
+}
+.serv1{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid black;
+}
+.serv1 p{
+	margin-bottom: 2%;
+	
+}
+
+
+/*SECTION TWO 6 DIVS STYLE*/
+.sec2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	max-width: 100%;
+	margin-top: 3%;
+}
+.sec2 div{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.box{
+	border: 1px solid black;
+	padding: 1%;
+	margin: 1% 1% 1% 0;
+	background-color: rgba(209, 203, 201, .5 );
+}
+.box h2{
+	font-size: 20px;
+}
+.box p{
+	margin-right: 1%;
+	font-size: 17px;
+}
+.box button{
+	margin: 3% 81% 0 0;
+	padding: 2%;
+	background-color: none;
+	border-radius: 11%;
+}
+
+/*SOME FACTS SECTIONN STYLING*/
+.serv3{
+	display:flex;
+	max-width: 100%;
+	margin-top: 3%;
+	border-top: 2px solid black;
+	justify-content: space-between;
+}
+.left-side-serv{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 48%;
+	margin-left: 9%;
+	margin-top: 3%;
+	margin-right: 5%;
+}
+.right-side-serv{
+	display: flex;
+	width: 49%;
+	margin-top: 3%;
+	margin-left:11%;
+}
+
+/*lefit side*/
+.serv3 h2{
+	font-size: 20px;
+}
+.serv3 p{
+	font-size: 17px;
+	margin-bottom: 3%;
+}
+li{
+	list-style-type: square;
+	margin-left: 17%;
+	width: 117px;
+}
+p{
+	line-height: 25px;
+}
